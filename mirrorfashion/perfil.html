@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <title>Meu primeiro Bootstrap</title>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/perfil.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Home</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Link 1º <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link 2º</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Nosso Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Sublink 1º</a></li>
+              <li><a href="#">Sublink 2º</a></li>
+              <li><a href="#">Sublink 3º</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Sublink 4º</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a target="_blank" href="https://www.youtube.com">Youtube</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="page-header">
+      <h1><span class="glyphicon glyphicon-user"></span> Página de Perfil</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <p class="text-justify">It is a long established fact that a reader will be distracted by the readable
+          content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+          normal distribution of letters, as opposed to using 'Content here, content here', making it look like
+          readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+          default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+          Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+          and the like).</p>
+      </div>
+
+      <div class="col-md-4">
+        <p class="text-justify">It is a long established fact that a reader will be distracted by the readable
+          content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+          normal distribution of letters, as opposed to using 'Content here, content here', making it look like
+          readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+          default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+          Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+          and the like).</p>
+      </div>
+
+      <div class="col-md-4">
+        <p class="text-justify">It is a long established fact that a reader will be distracted by the readable
+          content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+          normal distribution of letters, as opposed to using 'Content here, content here', making it look like
+          readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+          default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+          Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+          and the like).</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4><strong>Perfil de pessoas</strong></h4>
+        </div>
+
+        <div class="panel-body">
+          <div class="col-sm-6 col-md-4 hidden-xs">
+            <img id="img-perfil" class="img-responsive img-circle center-block"
+              src="http://lorempixel.com/output/people-q-c-300-300-9.jpg" alt="Falta uma descrição" />
+          </div>
+
+          <div class="col-sm-6 col-md-8">
+
+            <div class="page-header">
+              <h3 class="text-uppercase text-primary">Silvana Antonella Pinto</h3>
+            </div>
+
+            <p class="text-justify">It is a long established fact that a reader will be distracted by the readable
+              content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution of letters, as opposed to using 'Content here, content here', making it look like
+              readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+              default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+              Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+              and the like).</p>
+
+            <button type="button" class="btn btn-danger pull-right"><span class="fa fa-trash"></span> Remover</button>
+            <button type="button" class="btn btn-primary pull-right"><span class="fa fa-edit"></span> Editar</button>
+            <button type="button" class="btn btn-default pull-right"><span class="fa fa-cog fa-spin"></span>
+              Configurar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-justify">It is a long established fact that a reader will be distracted by the readable
+      content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+      normal distribution of letters, as opposed to using 'Content here, content here', making it look like
+      readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+      default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+      Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+      and the like).</p>
+
+    <p class="text-justify">It is a long established fact that a reader will be distracted by the readable
+      content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+      normal distribution of letters, as opposed to using 'Content here, content here', making it look like
+      readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+      default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+      Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+      and the like).</p>
+
+    <p class="text-justify">It is a long established fact that a reader will be distracted by the readable
+      content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+      normal distribution of letters, as opposed to using 'Content here, content here', making it look like
+      readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+      default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+      Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+      and the like).</p>
+
+    <p class="text-justify">It is a long established fact that a reader will be distracted by the readable
+      content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+      normal distribution of letters, as opposed to using 'Content here, content here', making it look like
+      readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+      default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+      Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+      and the like).</p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

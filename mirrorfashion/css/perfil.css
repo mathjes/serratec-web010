@@ -1,0 +1,29 @@
+body {
+    padding-top: 70px;
+}
+
+hr {
+    border-top: 1px solid #337ab7;
+}
+
+.btn {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.page-header {
+    border-bottom: 1px solid #337ab7;
+}
+
+.panel {
+    border-radius: 10px;
+}
+
+.panel-heading {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 100px;
+}
+
+#img-perfil {
+    max-width: 200px;
+}
